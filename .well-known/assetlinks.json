@@ -1,0 +1,15 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.pyquest.twa",
+        "sha256_cert_fingerprints": [
+          "78:06:F3:3E:CA:9C:ED:19:59:AE:F3:F7:94:3A:F4:C5:91:3D:99:B5:61:44:3B:AE:B4:33:E7:5D:90:8D:C7:8E"
+        ]
+      }
+    }
+  ]
+  
