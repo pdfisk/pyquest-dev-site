@@ -1,7 +1,3 @@
-<script>
-    function abc() {console.log('ABC')};
-</script>
+### PyQuest Docs
 
-### Python Docs
-
-<a onclick="abc()">Click Me!</a>
+<a onclick="app.displayPage('python/basic_syntax')">Python Syntax</a>
