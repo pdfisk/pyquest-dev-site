@@ -1,4 +1,3 @@
-### Python Basic Syntax
+### Python Functions
 
 <a onclick="app.helpPageBack()">Index</a>
-
