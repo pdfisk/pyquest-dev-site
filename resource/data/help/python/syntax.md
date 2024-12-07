@@ -1,4 +1,5 @@
 ### Python Syntax
 
-<a onclick="app.helpPageBack()">Index</a>
+
+<a onclick="app.helpPageDisplay('index')">Index</a>
 
