@@ -3,7 +3,7 @@
     color: #000;
   }
 
-  .markdown ul li::marker {
+  .markdown ::marker {
     color: red !important;
     font-size: 1.5em !important;
   }
