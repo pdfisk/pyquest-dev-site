@@ -1,3 +1,6 @@
 ### PyQuest Docs
 
-<a onclick="app.helpPageDisplay('python/basic_syntax')">Python Syntax</a>
+### Python
+- <a onclick="app.helpPageDisplay('python/syntax')">Syntax</a>
+- <a onclick="app.helpPageDisplay('python/functions')">Functions</a>
+- <a onclick="app.helpPageDisplay('python/classes')">Classes</a>
