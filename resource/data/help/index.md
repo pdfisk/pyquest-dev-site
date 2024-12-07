@@ -7,3 +7,8 @@
 <li><a onclick="app.helpPageDisplay('python/functions')">Functions</a></li>
 <li><a onclick="app.helpPageDisplay('python/classes')">Classes</a></li>
 </ul>
+
+* Bird
+
+* Magic
+* Johnson
