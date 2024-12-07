@@ -1,4 +1,6 @@
 # Python Syntax
-<hl>
+<hr>
+<br>
+<br>
 
 <a onclick="app.helpPageDisplay('index')">Index</a>
