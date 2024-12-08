@@ -2,11 +2,6 @@
     background-color: #d3d3d3;
     color: #000;
   }
-
-  .markdown ::marker {
-    color: red !important;
-    font-size: 1.5em !important;
-  }
  
   .tooltip {
     visibility: visible;
