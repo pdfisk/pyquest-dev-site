@@ -2,9 +2,14 @@
     <head>
         <script type="text/javascript">
             window.onmessage = (message) => {
-                console.log('iframe onmessage', message);
-                window.X = message;
-            }
+                const data = message.data;
+                const action = data.action;
+                const args = data.args;
+                this.performAction(action, args);
+            };
+            window.performAction = (action, args) {
+                console.log('performAction', action, args);
+            };
         </script>
     </head>
     <body>     
