@@ -3,7 +3,6 @@
 <head>
     <script type="text/javascript">
         window.onmessage = (message) => {
-            console.log('onmessage', message);
             const data = message.data;
             const action = data.action;
             const args = data.args;
@@ -18,6 +17,10 @@
                     console.log('unknown action', action, args);
                     break;
             }
+        };
+        window.sendParentMessage = (action, args) => {
+            const data = {action: action, args: args};
+            window.parent.postMessage(data);
         };
     </script>
 </head>
