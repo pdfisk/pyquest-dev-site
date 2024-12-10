@@ -1,17 +1,21 @@
 <html>
-    <head>
-        <script type="text/javascript">
-            window.onmessage = (message) => {
-                const data = message.data;
-                const action = data.action;
-                const args = data.args;
-                this.performAction(action, args);
-            };
-            window.performAction = (action, args) => {
-                console.log('performAction', action, args);
-            };
-        </script>
-    </head>
-    <body>     
-    </body>
+
+<head>
+    <script type="text/javascript">
+        window.onmessage = (message) => {
+            console.log('onmessage', message);
+            const data = message.data;
+            const action = data.action;
+            const args = data.args;
+            this.performAction(action, args);
+        };
+        window.performAction = (action, args) => {
+            console.log('performAction', action, args);
+        };
+    </script>
+</head>
+
+<body>
+</body>
+
 </html>
