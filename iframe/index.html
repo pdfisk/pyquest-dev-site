@@ -10,7 +10,14 @@
             this.performAction(action, args);
         };
         window.performAction = (action, args) => {
-            console.log('performAction', action, args);
+            switch(action) {
+                case 'set_body':
+                    this.document.body.innerHTML = args;
+                    break;
+                default:
+                    console.log('unknown action', action, args);
+                    break;
+            }
         };
     </script>
 </head>
