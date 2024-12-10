@@ -3,6 +3,7 @@
 <head>
     <script type="text/javascript">
         window.onmessage = (message) => {
+            console.log('iframe onmessage', message);
             const data = message.data;
             const action = data.action;
             const args = data.args;
