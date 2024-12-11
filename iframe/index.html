@@ -2,6 +2,9 @@
 
 <head>
     <script type="text/javascript">
+        window.onload = () => {
+            console.log('onload');
+        };
         window.onmessage = (message) => {
             console.log('iframe onmessage', message);
             const data = message.data;
