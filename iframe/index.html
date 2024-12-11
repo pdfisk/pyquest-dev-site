@@ -3,10 +3,10 @@
 <head>
     <script type="text/javascript">
         window.onload = () => {
-            console.log('onload');
+            console.log('html onload');
         };
         window.onmessage = (message) => {
-            console.log('iframe onmessage', message);
+            console.log('html onmessage', message);
             const data = message.data;
             const action = data.action;
             const args = data.args;
@@ -18,7 +18,7 @@
                     this.document.body.innerHTML = args;
                     break;
                 default:
-                    console.log('unknown action', action, args);
+                    console.log('html unknown action', action, args);
                     break;
             }
         };
