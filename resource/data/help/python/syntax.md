@@ -2,4 +2,4 @@
 <hr>
 <br>
 
-<a onclick="app.helpPageDisplay('index')">Index</a>
+<a onclick="showPage('index')">Index</a>
