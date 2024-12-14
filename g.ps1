@@ -1,1 +1,1 @@
-start msedge \Users\peter\source\repos\app\heroku\public\index.html
+start chrome http://localhost/public
